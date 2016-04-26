@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abbruch" xml:space="preserve">
+    <value>Annuler sélection!</value>
+  </data>
+  <data name="Aktionabgebrochen" xml:space="preserve">
+    <value>Annulé!</value>
+  </data>
+  <data name="at" xml:space="preserve">
+    <value> au </value>
+  </data>
+  <data name="Backupverzeichnis" xml:space="preserve">
+    <value>Répertoire de sauvegarde</value>
+  </data>
+  <data name="BEN2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Beschreibung" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="btnEnde" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="btnEntfernen" xml:space="preserve">
+    <value>supprimer un fichier</value>
+  </data>
+  <data name="btnListeleeren" xml:space="preserve">
+    <value>liste des fichiers clair</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Réinitialiserlab</value>
+  </data>
+  <data name="btnSetzen" xml:space="preserve">
+    <value>Réglage de l’heure</value>
+  </data>
+  <data name="btnStarten" xml:space="preserve">
+    <value>Démarrer la sauvegarde</value>
+  </data>
+  <data name="btnVerzeichnis" xml:space="preserve">
+    <value>Sélectionner répertoire Sauvegarde</value>
+  </data>
+  <data name="BWillBe" xml:space="preserve">
+    <value>la sauvegarde sera</value>
+  </data>
+  <data name="chkspaeter" xml:space="preserve">
+    <value>Effectuer une sauvegarde plus tard</value>
+  </data>
+  <data name="ErrorLabel" xml:space="preserve">
+    <value>Erreur!</value>
+  </data>
+  <data name="ExecutionLabel" xml:space="preserve">
+    <value> être effectuée.</value>
+  </data>
+  <data name="Gefunden" xml:space="preserve">
+    <value>trouvé.</value>
+  </data>
+  <data name="gewaehlterPfad" xml:space="preserve">
+    <value>Chemin choisi:</value>
+  </data>
+  <data name="Hard" xml:space="preserve">
+    <value>ERROR! \nLe fichier HMData.mdb \nn’a pas pu être copié.</value>
+  </data>
+  <data name="HardCgefunden" xml:space="preserve">
+    <value>HardC.ini existe. \r\n----------------------------------------------</value>
+  </data>
+  <data name="HardCnichtgefunden" xml:space="preserve">
+    <value>HardC.ini n’a pas été \ntrouvé. \r\n----------------------------------------------</value>
+  </data>
+  <data name="HMD" xml:space="preserve">
+    <value>ERROR! \nLe fichier HMData.mdb \nn’a pas pu être copié.</value>
+  </data>
+  <data name="HMDatagefunden" xml:space="preserve">
+    <value>HMData.mdb existe. \r\n----------------------------------------------</value>
+  </data>
+  <data name="HMDatanichtgefunden" xml:space="preserve">
+    <value>HMData.mdb n’a pas été \ntrouvé. \r\n----------------------------------------------</value>
+  </data>
+  <data name="Kopiert" xml:space="preserve">
+    <value>a été copié avec succès</value>
+  </data>
+  <data name="label1" xml:space="preserve">
+    <value>Taille fichier: </value>
+  </data>
+  <data name="languageToolStripMenuItem" xml:space="preserve">
+    <value>langugage</value>
+  </data>
+  <data name="neuerPfad" xml:space="preserve">
+    <value>Nouveau chemin:</value>
+  </data>
+  <data name="NichtGefunden" xml:space="preserve">
+    <value>introuvable</value>
+  </data>
+  <data name="NichtKopiert" xml:space="preserve">
+    <value>n'a pas pu être copié. ERREUR</value>
+  </data>
+  <data name="OurMonthly" xml:space="preserve">
+    <value> tous les \r\n28 jours </value>
+  </data>
+  <data name="OurWeekly" xml:space="preserve">
+    <value> une fois \r\npar semaine </value>
+  </data>
+  <data name="OurYearly" xml:space="preserve">
+    <value> annuellement </value>
+  </data>
+  <data name="programmePfad" xml:space="preserve">
+    <value>Chemin fichiers programme:</value>
+  </data>
+  <data name="radBenutzer" xml:space="preserve">
+    <value>Sauvegarde répertoires sélectionnés</value>
+  </data>
+  <data name="radHardC" xml:space="preserve">
+    <value>Sauvegarde HardC.ini seulement</value>
+  </data>
+  <data name="radHMData" xml:space="preserve">
+    <value>Sauvegarde HMData.mdb seulement</value>
+  </data>
+  <data name="radHMVid" xml:space="preserve">
+    <value>Sécurise HMData.mdb &amp; VidEqu.Cfg</value>
+  </data>
+  <data name="radKomplett" xml:space="preserve">
+    <value>Sauvegarde complète</value>
+  </data>
+  <data name="radMonthly" xml:space="preserve">
+    <value>mensuel</value>
+  </data>
+  <data name="radOnce" xml:space="preserve">
+    <value>une fois</value>
+  </data>
+  <data name="radVidEqu" xml:space="preserve">
+    <value>Sauvegarde VidEqu.Cfg seulement</value>
+  </data>
+  <data name="radWeekly" xml:space="preserve">
+    <value>hebdomadaire</value>
+  </data>
+  <data name="radWinCon" xml:space="preserve">
+    <value>Sauvegarde WinCon &amp; WinCon2 seulement</value>
+  </data>
+  <data name="radYearly" xml:space="preserve">
+    <value>annuel</value>
+  </data>
+  <data name="sprache" xml:space="preserve">
+    <value>FR</value>
+  </data>
+  <data name="SuccessLabel" xml:space="preserve">
+    <value>Succès!</value>
+  </data>
+  <data name="TheBackup" xml:space="preserve">
+    <value>la sauvegarde </value>
+  </data>
+  <data name="TheBDate" xml:space="preserve">
+    <value>la date</value>
+  </data>
+  <data name="txtgrpButtonage" xml:space="preserve">
+    <value>Commandes</value>
+  </data>
+  <data name="txtgrpDragDrop" xml:space="preserve">
+    <value>Faites glisser &amp;&amp; déposer des fichiers ici</value>
+  </data>
+  <data name="txtgrpOptions" xml:space="preserve">
+    <value>Options Menu</value>
+  </data>
+  <data name="UserFileData" xml:space="preserve">
+    <value>données personnalisées</value>
+  </data>
+  <data name="Verzeichnis" xml:space="preserve">
+    <value>Répertoire</value>
+  </data>
+  <data name="verzgroesse" xml:space="preserve">
+    <value>Répertoire Taille:</value>
+  </data>
+  <data name="VID" xml:space="preserve">
+    <value>ERROR! \nLe fichier HMData.mdb \nn’a pas pu être copié.</value>
+  </data>
+  <data name="VidEqugefunden" xml:space="preserve">
+    <value>Videqu.Cfg existe. \r\n----------------------------------------------</value>
+  </data>
+  <data name="VidEqunichtgefunden" xml:space="preserve">
+    <value>Videqu.Cfg n’a pas été \ntrouvé. \r\n----------------------------------------------</value>
+  </data>
+  <data name="WCK" xml:space="preserve">
+    <value>ERROR! \nImpossible de copier \nC:\\WinCon \nIl y a eu une erreur.</value>
+  </data>
+  <data name="WCK2" xml:space="preserve">
+    <value>ERROR! \nImpossible de copier \nC:\\Program Files\\WinCon \nIl y a eu une erreur.</value>
+  </data>
+  <data name="WinCongefunden" xml:space="preserve">
+    <value>WinCon trouvé. \r\n----------------------------------------------</value>
+  </data>
+  <data name="WinConnichtgefunden" xml:space="preserve">
+    <value>Wincon \nnon trouvé \r\n----------------------------------------------</value>
+  </data>
+  <data name="BEN" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExecutionOnce" xml:space="preserve">
+    <value>était succès \r \n entré dans la planification</value>
+  </data>
+  <data name="loadfiles" xml:space="preserve">
+    <value>bla</value>
+  </data>
+  <data name="loadfilestitle" xml:space="preserve">
+    <value>blabla</value>
+  </data>
+  <data name="sichergroesse" xml:space="preserve">
+    <value>sauvegarde Taille:</value>
+  </data>
+  <data name="WinCon2gefunden" xml:space="preserve">
+    <value>WinCon2 trouvé. \r\n----------------------------------------------</value>
+  </data>
+  <data name="WinCon2nichtgefunden" xml:space="preserve">
+    <value>WinCon2 \nnon trouvé. \r\n----------------------------------------------</value>
+  </data>
+</root>

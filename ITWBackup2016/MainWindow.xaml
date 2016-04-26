@@ -1,0 +1,122 @@
+﻿<Window x:Name="ITWBackup2016" x:Class="ITWBackup2016.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ITWBackup2016"
+        mc:Ignorable="d"
+        Title="ITWBackup2016" Height="625" Width="800" Loaded="Window_Loaded" Icon="1c601546-e18f-4bf2-b072-1cdee22bd33d-16.ico">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF5353F5" Offset="0"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Viewbox Width="Auto" Height="Auto" HorizontalAlignment="Left"  VerticalAlignment="Top" >
+            <Grid Width="715" Height="500">
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF8FA3FF" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="178
+                                       *"/>
+                        <RowDefinition Height="257*"/>
+                        <RowDefinition Height="70*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel HorizontalAlignment="Left" Width="220" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1">
+                        <ComboBox Margin="0,15,0,25" x:Name="cmbBackupSelection" Width="220" VerticalAlignment="Top" Loaded="cmbBackupSelection_Loaded" SelectionChanged="cmbBackupSelection_Changed" HorizontalAlignment="Left" />
+                        <CheckBox x:Name="chkUserFiles" Content="Backup additional user files" d:LayoutOverrides="Width" Margin="0,0,38.01,0"/>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Left" Margin="0,0,0,-10" Width="220" VerticalAlignment="Bottom" Grid.Row="1" Grid.Column="1">
+                        <Label x:Name="lblProgFiles" Margin="0,10,0,0" Content="LblProgFiles" HorizontalAlignment="Left" Background="#FF959595" FontSize="10" Height="22" Width="220" />
+                        <Label x:Name="lblBackupPath" Margin="0,10,0,0" Content="LblBackupPath" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FF0C97D8" FontSize="10" Height="22" Width="220" />
+                        <Label x:Name="lblLanguage" Margin="0,10,0,0" Content="LblBackupPath" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FF77FF77" FontSize="10" Height="22" Width="220" />
+                    </StackPanel>
+                    <TextBox Grid.Row="2"  x:Name="txtOutput" HorizontalAlignment="Left" Height="206" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Margin="0,41,0,0" VerticalScrollBarVisibility="Auto" />
+                    <Label x:Name="label" Content="Status Output" HorizontalAlignment="Left" Margin="0,18,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+                </Grid>
+                <Grid Grid.Column="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="40*"/>
+                        <RowDefinition Height="40*"/>
+                        <RowDefinition Height="40*"/>
+                        <RowDefinition Height="120*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="45*"/>
+                        <RowDefinition Height="227*"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Grid.Row ="1" Margin="5" x:Name="btnSelectDir" Content="Select Directory for Backup" Height="25" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Center" Width="150" Click="btnSelectDir_Click" />
+                    <Button Grid.Row ="2" Margin="5" x:Name="btnStartBackup" Content="Start the Backup" Height="25" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Center" Width="150" Click="btnStartBackup_Click"  />
+                    <CheckBox Grid.Row ="3" Margin="5,5,5,0" x:Name="chkLater" Content="Time the Backup" Height="20" VerticalAlignment="Center" Visibility="Visible" HorizontalAlignment="Center" Width="150" />
+
+                    <StackPanel Grid.Row="4">
+                        <DatePicker Margin="5,5,0,5" x:Name="datePick" HorizontalAlignment="Left" VerticalAlignment="Top" Width="147"/>
+                        <ComboBox Margin="5,5,0,5" x:Name="cmbOccurenceSelection" HorizontalAlignment="Left" VerticalAlignment="Top" Width="147" Loaded="cmbOccurenceSelection_Loaded" SelectionChanged="cmbOccurenceSelection_Changed" />
+                        <Button Margin="6,5,10,5" x:Name="btnActivateBackup" Content="Activate" Height="25" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Center" Width="146" Click="btnActivateBackup_Click" />
+                    </StackPanel>
+
+                    <Button Grid.Row ="6" x:Name="btnReset" Content="Reset" Height="25" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Left" Width="70" Margin="6,4,0,0" />
+                    <Button Grid.Row ="6" x:Name="btnInfo" Content="Info" Height="25" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Right" Width="70" Margin="0,4,7,0" Click="btnInfo_Click" />
+                    <Button Grid.Row ="7" x:Name="btnQuit" Content="Close" Height="25" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Center" Width="150" Margin="6,0" Click="btnQuit_Click" />
+                    <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="28,55,0,0" Grid.Row="7" VerticalAlignment="Top" Width="115" Source="logo.png"/>
+                    <Label x:Name="lblBackup" Content="Backup" HorizontalAlignment="Left" Margin="25,144,0,0" Grid.Row="7" VerticalAlignment="Top" FontFamily="Bauhaus 93" FontSize="26.667" Width="105" FontWeight="Bold" FontStyle="Italic"/>
+                </Grid>
+                <Grid Grid.Column="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="300*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row ="0" Margin="0,20,0,0" x:Name="lblDnD" Content="Drag n' Drop Files or Directories in here" HorizontalAlignment="Stretch" VerticalAlignment="Top" FontSize="10" Height="22" />
+                    <ListView Grid.Row ="0" Margin="0,40,0,0" x:Name="lviFileList" HorizontalAlignment="Left" Height="283" VerticalAlignment="Top" Width="250" Drop="lviFileList_DragDrop" DragEnter="lviFileList_DragEnter" AllowDrop="True" SelectionChanged="lviFileList_SelectedIndexChanged" />
+                    <Button Grid.Row ="1" Margin="5" x:Name="btnDeSelectFiles" Content="Deselect File" Height="25" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Right" Width="110" Grid.RowSpan="2" Click="btnDeSelectFiles_Click"  />
+                    <Button Grid.Row ="1" Margin="5,5,0,0" x:Name="btnEmptyList" Content="Empty List" Height="25" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Left" Width="110" Click="btnEmptyList_Click" />
+                    <Button Grid.Row ="2" Margin="5" x:Name="btnLoadXMLFile" Content="Load XML File" Height="25" VerticalAlignment="Top" Visibility="Visible" HorizontalAlignment="Center" Width="110" Grid.RowSpan="2" Click="btnLoadXMLFile_Click" />
+                    <Label Grid.Row ="3" x:Name="lblFileSize" Content="" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="#FF959595" FontSize="10" Height="22" Margin="56,6,56,0" />
+                    <Label Grid.Row ="4" x:Name="lblDirSize" Content="" HorizontalAlignment="Stretch" VerticalAlignment="Center" Background="#FF0C97D8" FontSize="10" Height="22" Margin="56,4" />
+                    <Label Grid.Row ="5" x:Name="lblBackupSize" Content="LblBackupSize" HorizontalAlignment="Stretch" VerticalAlignment="Center" Background="#FF77FF77" FontSize="10" Height="22" Margin="56,4" />
+                </Grid>
+                <Button x:Name="buttonUS" Content="" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="50" Margin="0,440,0,0" Click="buttonUS_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="FlagUS.ico"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="buttonDE" Content="" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="50" Margin="78,440,0,0" Click="buttonDE_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="FlagDE.ico"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="buttonFR" Content="" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="50" Margin="151,440,0,0" Click="buttonFR_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="FlagFR.ico"/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+        </Viewbox>
+        <StatusBar HorizontalAlignment="Left" Height="26" Margin="1,570,0,0" VerticalAlignment="Top" Width="790"/>
+    </Grid>
+</Window>

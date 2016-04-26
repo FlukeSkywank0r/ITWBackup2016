@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abbruch" xml:space="preserve">
+    <value>Abbruch gewählt!</value>
+  </data>
+  <data name="Aktionabgebrochen" xml:space="preserve">
+    <value>Aktion abgebrochen!</value>
+  </data>
+  <data name="at" xml:space="preserve">
+    <value>um</value>
+  </data>
+  <data name="Backupverzeichnis" xml:space="preserve">
+    <value>Backupverzeichnis</value>
+  </data>
+  <data name="BEN2" xml:space="preserve">
+    <value>Keine benutzerspezifischen \r\nDateien hinzugefügt.\r\n----------------------------------------------</value>
+  </data>
+  <data name="Beschreibung" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="btnEnde" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="btnEntfernen" xml:space="preserve">
+    <value>Datei entfernen</value>
+  </data>
+  <data name="btnListeleeren" xml:space="preserve">
+    <value>Datei Liste leeren</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Zurücksetzen</value>
+  </data>
+  <data name="btnSetzen" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="btnStarten" xml:space="preserve">
+    <value>Datensicherung starten</value>
+  </data>
+  <data name="btnVerzeichnis" xml:space="preserve">
+    <value>Sicherungsverzeichnis wählen</value>
+  </data>
+  <data name="BWillBe" xml:space="preserve">
+    <value>Das Backup wird nun</value>
+  </data>
+  <data name="chkspaeter" xml:space="preserve">
+    <value>Sicherung später durchführen</value>
+  </data>
+  <data name="ErrorLabel" xml:space="preserve">
+    <value>Fehler!</value>
+  </data>
+  <data name="ExecutionLabel" xml:space="preserve">
+    <value>durchgeführt werden.</value>
+  </data>
+  <data name="Gefunden" xml:space="preserve">
+    <value>gefunden.</value>
+  </data>
+  <data name="gewaehlterPfad" xml:space="preserve">
+    <value>gewählter Pfad:</value>
+  </data>
+  <data name="Hard" xml:space="preserve">
+    <value>FEHLER! \r\nDie Datei HardC.ini \r\nkonnte nicht kopiert werden.\r\n\r\n----------------------------------------------</value>
+  </data>
+  <data name="HardCgefunden" xml:space="preserve">
+    <value>HardC.ini vorhanden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="HardCnichtgefunden" xml:space="preserve">
+    <value>HardC.ini konnte nicht \ngefunden werden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="HMD" xml:space="preserve">
+    <value>FEHLER! \r\nDie Datei HMData.mdb \r\nkonnte nicht kopiert werden.\r\n\r\n----------------------------------------------</value>
+  </data>
+  <data name="HMDatagefunden" xml:space="preserve">
+    <value>HMData.mdb vorhanden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="HMDatanichtgefunden" xml:space="preserve">
+    <value>HMData.mdb konnte nicht \ngefunden werden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="Kopiert" xml:space="preserve">
+    <value>wurde erfolgreich kopiert\r\n----------------------------------------------</value>
+  </data>
+  <data name="label1" xml:space="preserve">
+    <value>Dateigröße:</value>
+  </data>
+  <data name="languageToolStripMenuItem" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="neuerPfad" xml:space="preserve">
+    <value>Neuer Pfad :</value>
+  </data>
+  <data name="NichtGefunden" xml:space="preserve">
+    <value>wurde nicht gefunden</value>
+  </data>
+  <data name="NichtKopiert" xml:space="preserve">
+    <value>konnte nicht kopiert werden. FEHLER!\r\n----------------------------------------------</value>
+  </data>
+  <data name="OurMonthly" xml:space="preserve">
+    <value>alle \r\n28 Tage</value>
+  </data>
+  <data name="OurWeekly" xml:space="preserve">
+    <value>wöchentlich \r\neinmal</value>
+  </data>
+  <data name="OurYearly" xml:space="preserve">
+    <value>jährlich \r\nam</value>
+  </data>
+  <data name="programmePfad" xml:space="preserve">
+    <value>Programme Pfad:</value>
+  </data>
+  <data name="radBenutzer" xml:space="preserve">
+    <value>benutzerdef. Dateien/Verz.</value>
+  </data>
+  <data name="radHardC" xml:space="preserve">
+    <value>Nur HardC.ini sichern</value>
+  </data>
+  <data name="radHMData" xml:space="preserve">
+    <value>Nur HMData.mdb sichern</value>
+  </data>
+  <data name="radHMVid" xml:space="preserve">
+    <value>HMData und VidEqu sichern</value>
+  </data>
+  <data name="radKomplett" xml:space="preserve">
+    <value>Komplettsicherung</value>
+  </data>
+  <data name="radMonthly" xml:space="preserve">
+    <value>monatlich</value>
+  </data>
+  <data name="radOnce" xml:space="preserve">
+    <value>einmalig</value>
+  </data>
+  <data name="radVidEqu" xml:space="preserve">
+    <value>Nur VidEqu.Cfg sichern</value>
+  </data>
+  <data name="radWeekly" xml:space="preserve">
+    <value>wöchentlich</value>
+  </data>
+  <data name="radWinCon" xml:space="preserve">
+    <value>WinCon und WinCon2 sichern</value>
+  </data>
+  <data name="radYearly" xml:space="preserve">
+    <value>jährlich</value>
+  </data>
+  <data name="sprache" xml:space="preserve">
+    <value>DE</value>
+  </data>
+  <data name="SuccessLabel" xml:space="preserve">
+    <value>Erfolg!</value>
+  </data>
+  <data name="TheBackup" xml:space="preserve">
+    <value>Das Backup wird am</value>
+  </data>
+  <data name="TheBDate" xml:space="preserve">
+    <value>Der Termin </value>
+  </data>
+  <data name="txtgrpButtonage" xml:space="preserve">
+    <value>Befehle</value>
+  </data>
+  <data name="txtgrpDragDrop" xml:space="preserve">
+    <value>Dateien hier reinziehen</value>
+  </data>
+  <data name="txtgrpOptions" xml:space="preserve">
+    <value>Auswahl Menü</value>
+  </data>
+  <data name="UserFileData" xml:space="preserve">
+    <value>benutzerdefinierte Daten</value>
+  </data>
+  <data name="Verzeichnis" xml:space="preserve">
+    <value>Dies ist ein Verzeichnis</value>
+  </data>
+  <data name="verzgroesse" xml:space="preserve">
+    <value>Verzeichnisgroesse:</value>
+  </data>
+  <data name="VID" xml:space="preserve">
+    <value>FEHLER! \r\nDie Datei VidEqu.Cfg \r\nkonnte nicht kopiert werden.\r\n\r\n----------------------------------------------</value>
+  </data>
+  <data name="VidEqugefunden" xml:space="preserve">
+    <value>Videqu.Cfg vorhanden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="VidEqunichtgefunden" xml:space="preserve">
+    <value>Videqu.Cfg konnte nicht \r\ngefunden werden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="WCK" xml:space="preserve">
+    <value>FEHLER! \r\nBeim Kopieren von \r\nC:\\WinCon \r\ntrat ein Fehler auf.\r\n\r\n----------------------------------------------</value>
+  </data>
+  <data name="WCK2" xml:space="preserve">
+    <value>FEHLER! \r\nBeim Kopieren von \r\nC:\\Program Files\\WinCon2 \r\ntrat ein Fehler auf.\r\n----------------------------------------------\r\n</value>
+  </data>
+  <data name="WinCongefunden" xml:space="preserve">
+    <value>WinCon gefunden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="WinConnichtgefunden" xml:space="preserve">
+    <value>Wincon \nkonnte nicht gefunden werden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="BEN" xml:space="preserve">
+    <value>FEHLER! \r\nDie ausgewählten \n\rBenutzerdaten \n\rkonnten nicht kopiert werden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="ExecutionOnce" xml:space="preserve">
+    <value>wurde erfolgreich \r\n in die Planung eingetragen</value>
+  </data>
+  <data name="loadfiles" xml:space="preserve">
+    <value>Benutzer Datein vom letzten Mal erneut sichern?</value>
+  </data>
+  <data name="loadfilestitle" xml:space="preserve">
+    <value>Benutzer spezifische Dateien laden?</value>
+  </data>
+  <data name="sichergroesse" xml:space="preserve">
+    <value>Sicherungsgroesse:</value>
+  </data>
+  <data name="WinCon2gefunden" xml:space="preserve">
+    <value>WinCon2 gefunden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="WinCon2nichtgefunden" xml:space="preserve">
+    <value>WinCon2 \r\nwurde nicht gefunden.\r\n----------------------------------------------</value>
+  </data>
+  <data name="btnLoadXMLFile" xml:space="preserve">
+    <value>XML Daten laden</value>
+  </data>
+</root>
